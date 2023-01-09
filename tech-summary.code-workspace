@@ -10,11 +10,19 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.guides.bracketPairs": "active",
-    "[markdown]": { "editor.formatOnSave": false }
+    "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.config": {
+      "MD025": false,
+      "MD033": { "allowed_elements": ["li"] },
+      "MD041": false
+    }
   },
   "extensions": {
     "recommendations": [
       "bierner.markdown-checkbox",
+      "DavidAnson.vscode-markdownlint",
       "eamodio.gitlens",
       "esbenp.prettier-vscode",
       "mhutchie.git-graph",
