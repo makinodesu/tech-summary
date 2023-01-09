@@ -37,4 +37,3 @@ sequenceDiagram
     DHCP Server->>Router: Response
     Router->>DHCP Client: Response
 ```
-
