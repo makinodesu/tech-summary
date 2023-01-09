@@ -29,7 +29,6 @@
 # 7
 
 - DHCP relay
-- .md lint Github Action test
 
 ```mermaid
 sequenceDiagram
@@ -38,3 +37,4 @@ sequenceDiagram
     DHCP Server->>Router: Response
     Router->>DHCP Client: Response
 ```
+
