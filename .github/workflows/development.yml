@@ -27,7 +27,7 @@ jobs:
         uses: avto-dev/markdown-lint@v1.5.0
         with:
           # Custom rule files (file|directory|glob|package)
-          rules: # optional
+          rules: './tech-summary.code-workspace'
           # Configuration file (JSON, JSONC, or YAML)
           config: # optional
           # Fix basic errors
