@@ -31,10 +31,10 @@ jobs:
           # Configuration file (JSON, JSONC, or YAML)
           config: # optional
           # Fix basic errors
-          fix: true
+          fix: # optional, default is false
           # Write issues to file
           output: # optional
           # Files to ignore/exclude
           ignore: # optional
           # Files (directories|globs) for a work or any additional arguments
-          args: *.md
+          args: **/*.md
