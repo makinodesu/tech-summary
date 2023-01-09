@@ -13,6 +13,12 @@
     "[markdown]": { "editor.formatOnSave": false }
   },
   "extensions": {
-    "recommendations": ["bierner.markdown-checkbox", "esbenp.prettier-vscode"]
+    "recommendations": [
+      "bierner.markdown-checkbox",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "mhutchie.git-graph",
+      "takumii.markdowntable"
+    ]
   }
 }
