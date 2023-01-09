@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on pull request events but only for the "development" branch
   pull_request:
-    branches: [ "development" ]
+    branches: ["development"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,3 +32,20 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+          - name: Markdown Linting Action
+      - name: Lint .md
+        uses: avto-dev/markdown-lint@v1.5.0
+        with:
+          # Custom rule files (file|directory|glob|package)
+          rules: # optional
+          # Configuration file (JSON, JSONC, or YAML)
+          config: # optional
+          # Fix basic errors
+          fix: # optional, default is false
+          # Write issues to file
+          output: # optional
+          # Files to ignore/exclude
+          ignore: # optional
+          # Files (directories|globs) for a work or any additional arguments
+          args:
