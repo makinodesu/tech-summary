@@ -5,8 +5,8 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on pull request events but only for the "development" branch
-  pull_request:
-    branches: ["development"]
+  push:
+    branches: ["#1_issue"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,18 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Markdown Linting Action
-        uses: avto-dev/markdown-lint@v1.5.0
+      - name: markdownlint-cli2-action
+        uses: DavidAnson/markdownlint-cli2-action@v9.0.0
         with:
-          # Custom rule files (file|directory|glob|package)
-          rules: './.markdownlint.json'
-          # Configuration file (JSON, JSONC, or YAML)
-          config: # optional
-          # Fix basic errors
-          fix: # optional, default is false
-          # Write issues to file
-          output: # optional
-          # Files to ignore/exclude
-          ignore: # optional
-          # Files (directories|globs) for a work or any additional arguments
-          args: '**/*.md'
+          globs: '**/*.md'
