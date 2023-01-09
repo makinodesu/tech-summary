@@ -25,3 +25,15 @@
 | 23  | <li>- [ ] </li> |
 | 24  | <li>- [ ] </li> |
 | 25  | <li>- [ ] </li> |
+
+# 7
+
+- DHCP relay
+
+```mermaid
+sequenceDiagram
+    DHCP Client->>Router: Broadcast
+    Router->>DHCP Server: Unicast
+    DHCP Server->>Router: Response
+    Router->>DHCP Client: Response
+```
