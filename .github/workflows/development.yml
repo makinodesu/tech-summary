@@ -37,4 +37,4 @@ jobs:
           # Files to ignore/exclude
           ignore: # optional
           # Files (directories|globs) for a work or any additional arguments
-          args: '*.md'
+          args: '**/*.md'
