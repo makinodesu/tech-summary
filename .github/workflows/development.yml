@@ -31,7 +31,7 @@ jobs:
           # Configuration file (JSON, JSONC, or YAML)
           config: # optional
           # Fix basic errors
-          fix: # optional, default is false
+          fix: true
           # Write issues to file
           output: # optional
           # Files to ignore/exclude
