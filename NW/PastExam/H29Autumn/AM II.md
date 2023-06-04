@@ -1,6 +1,6 @@
-| No  |      First      |     Second      |
+| No  |      First      |     second      |
 | :-: | :-------------: | :-------------: |
-|  1  | <li>- [ ] </li> | <li>- [x] </li> |
+|  1  | <li>- [ ] </li> | <li>- [ ] </li> |
 |  2  | <li>- [ ] </li> | <li>- [ ] </li> |
 |  3  | <li>- [ ] </li> | <li>- [ ] </li> |
 |  4  | <li>- [ ] </li> | <li>- [ ] </li> |
@@ -8,36 +8,38 @@
 |  6  | <li>- [ ] </li> | <li>- [ ] </li> |
 |  7  | <li>- [ ] </li> | <li>- [ ] </li> |
 |  8  | <li>- [ ] </li> | <li>- [ ] </li> |
-|  9  | <li>- [ ] </li> | <li>- [ ] </li> |
+|  9  | <li>- [ ] </li> | <li>- [x] </li> |
 | 10  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 11  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 12  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 13  | <li>- [ ] </li> | <li>- [x] </li> |
+| 13  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 14  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 15  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 16  | <li>- [ ] </li> | <li>- [ ] </li> |
+| 16  | <li>- [ ] </li> | <li>- [x] </li> |
 | 17  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 18  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 19  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 20  | <li>- [ ] </li> | <li>- [x] </li> |
+| 20  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 21  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 22  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 23  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 24  | <li>- [ ] </li> | <li>- [x] </li> |
-| 25  | <li>- [ ] </li> | <li>- [x] </li> |
+| 23  | <li>- [ ] </li> | <li>- [x] </li> |
+| 24  | <li>- [ ] </li> | <li>- [ ] </li> |
+| 25  | <li>- [ ] </li> | <li>- [ ] </li> |
 
-# 7
+---
 
-- DHCP relay
+# 4
 
-```mermaid
-sequenceDiagram
-    DHCP Client->>Router: Broadcast
-    Router->>DHCP Server: Unicast
-    DHCP Server->>Router: Response
-    Router->>DHCP Client: Response
-```
+VLAN Identifier のビット長
 
-# 3
+# 6
 
-Confirm:IGPの更新トリガー
+MXレコード
+
+# 18
+
+ambiguous word
+
+# 22
+
+RAM
