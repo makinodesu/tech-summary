@@ -25,4 +25,4 @@ R3 PM I Q3
 （ H 29 年度 春期 SC 試験 午後 Ⅰ 問 3 より）SAML
 H 30 年度 の ネス ペ 試験 に 出題 さ れ た OAuth
 
-r3 pmi3,pmii2回答確認
+pmii2回答確認
