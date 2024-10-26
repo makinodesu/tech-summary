@@ -11,33 +11,23 @@
 |  9  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 10  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 11  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 12  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 13  | <li>- [ ] </li> | <li>- [x] </li> |
+| 12  | <li>- [ ] </li> | <li>- [x] </li> |
+| 13  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 14  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 15  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 16  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 17  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 18  | <li>- [ ] </li> | <li>- [ ] </li> |
+| 18  | <li>- [ ] </li> | <li>- [x] </li> |
 | 19  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 20  | <li>- [ ] </li> | <li>- [x] </li> |
+| 20  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 21  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 22  | <li>- [ ] </li> | <li>- [ ] </li> |
+| 22  | <li>- [ ] </li> | <li>- [x] </li> |
 | 23  | <li>- [ ] </li> | <li>- [ ] </li> |
-| 24  | <li>- [ ] </li> | <li>- [x] </li> |
+| 24  | <li>- [ ] </li> | <li>- [ ] </li> |
 | 25  | <li>- [ ] </li> | <li>- [x] </li> |
 
-# 7
+---
 
-- DHCP relay
+# 17
 
-```mermaid
-sequenceDiagram
-    DHCP Client->>Router: Broadcast
-    Router->>DHCP Server: Unicast
-    DHCP Server->>Router: Response
-    Router->>DHCP Client: Response
-```
-
-# 3
-
-Confirm:IGPの更新トリガー
+ドリルダウン・ロールアップ
